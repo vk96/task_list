@@ -12,6 +12,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #fff;
 }
 
 code {
@@ -21,4 +22,41 @@ code {
 
 .header-title {
   font-size: 35px;
+  flex: 1;
+}
+
+.list-wraper {
+  width: 90%;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+
+.list-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #4e4d52;
+  margin-bottom: 10px;
+}
+
+.list {
+  list-style: none;
+}
+
+.list-item {
+  background: #fff;
+  padding: 25px 20px;
+  margin: 10px 0px;
+  border-radius: 5px;
+}
+
+.list-item .list-title {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.list-item .list-description {
+  color: #333;
+  font-size: 14px;
 }

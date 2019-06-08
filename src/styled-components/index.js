@@ -1,3 +1,4 @@
 import HeaderWrapper from "./HeaderWrapper";
+import PaperWrapper from "./PaperWrapper";
 
-export { HeaderWrapper };
+export { HeaderWrapper, PaperWrapper };

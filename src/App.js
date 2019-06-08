@@ -6,7 +6,7 @@ function App() {
   return (
     <Router>
       <Switch>
-        <Route path="/" component={ListScreen} />
+        <Route exact path="/" component={ListScreen} />
         <Route path="/add" component={AddScreen} />
       </Switch>
     </Router>
